@@ -1289,8 +1289,8 @@ console.log(d);
       d.classList.add('zoomad');
       d.classList.remove('zoomoutad');   
     } else {
-     //d.classList.add('zoomoutad');
-     d.classList.remove('zoomad');
+     d.classList.add('zoomoutad');
+     //d.classList.remove('zoomad');
          
     }
  };
