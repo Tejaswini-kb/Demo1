@@ -1290,7 +1290,7 @@ console.log(d);
       d.classList.remove('zoomoutad');   
     } else {
      d.classList.add('zoomoutad');
-     //d.classList.remove('zoomad');
+     d.classList.remove('zoomad');
          
     }
  };
