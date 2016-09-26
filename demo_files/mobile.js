@@ -1282,15 +1282,17 @@ console.log("testing log");
 document.onscroll = function(){
     
 
-var d = document.getElementById("ad320x320");
+var d = document.getElementById("block-ti-lsg-mr-ads-mobile-320x320");
 
 console.log(d);
     if(elementInViewport(d)) {
-        d.classList.add('zoomoutad');
-        d.classList.remove('zoomad');
+      d.classList.add('zoomad');
+        d.classList.remove('zoomoutad');
+        
         
     } else {
-         d.classList.add('zoomad');
-        d.classList.remove('zoomoutad');
+      d.classList.add('zoomoutad');
+        d.classList.remove('zoomad');
+         
     }
  };
