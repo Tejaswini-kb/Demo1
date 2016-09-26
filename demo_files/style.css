@@ -4036,7 +4036,7 @@ strong {
 .zoomad
 {
   box-shadow:0;
-  z-index: 2;
+  z-index: 0;
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1);
   -ms-transition: all 200ms ease-in;
